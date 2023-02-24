@@ -1,0 +1,2 @@
+What is a component? Mark only one option
+    - A function or class that returns an element 
