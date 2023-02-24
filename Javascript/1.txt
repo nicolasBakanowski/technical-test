@@ -1,0 +1,10 @@
+1. Reading the following statements, please indicate which information
+will be printed on the screen.
+ se divide en 4 alertas:
+  a. muestra el resultado del binomio de los args 2 y 3 
+  b. muestra el resultado del binomio de los args 4 y 5 
+  c. imprime la cantidad de veces que se usa la funcion calculate Binomial, en este caso 2 
+  d. imprime el tipo de variable que se le pasa, en este caso undefined
+2.Explain in detail the 4th output: alert(typeof squareOfA);
+en el codigo proporcionado, se quiere hacer que aparezca un un alert con un typeOf, es decir se quiere saber de que tipo de variable es.
+pero en este caso la variable "squareOfA" va a ser undefined, por que esta fuera del scope
