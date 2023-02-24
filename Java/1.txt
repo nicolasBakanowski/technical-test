@@ -1,0 +1,2 @@
+1. Describe what Hibernate is and what it is used for
+    hibernate es un orm se usa para mapear clases de java a tablas de base de datos de esta manera nos simplifica e optimiza las consultas que hagamos a la bd
