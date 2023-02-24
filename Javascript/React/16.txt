@@ -1,0 +1,2 @@
+What is the error in the following Component
+ la funcion no esta retornando nada, hay que agregarle el return o eliminar las llaves ya que es un solo elemento

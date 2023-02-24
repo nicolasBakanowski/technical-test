@@ -1,0 +1,4 @@
+Explain, in your own words, what this component does
+- define una varialbe de estado propia del componente, la inicializa en 1
+- se define la funcion  "click" que se va ejecutar cuando le den click a el boton
+- cuando hacen click en el boton se ejecuta la funcion "click" que recibe como argumento un numero, en este caso seteado en el state y ese numero se le suma uno y se actualiza el estado

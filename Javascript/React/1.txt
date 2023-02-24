@@ -1,0 +1,4 @@
+ 1. What are props in a component? Select all the options that apply.
+    creo que se pueden tomar dos opciones como correctas estas son:
+    - They are the parameters of a component
+    - It is a mechanism to put data inside the component

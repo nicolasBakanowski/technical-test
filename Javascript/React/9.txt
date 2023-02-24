@@ -1,0 +1,3 @@
+What functionality does the use of Context API provide?
+- It is a mechanism that provides a way to pass data through the component
+tree without manually passing props at all levels.

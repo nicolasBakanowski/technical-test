@@ -1,0 +1,4 @@
+Created the following state of a variable:
+Which of these implementations change the state of a component? Check
+only one option.
+-setValue(“my value”)

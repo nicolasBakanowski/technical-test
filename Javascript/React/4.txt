@@ -1,0 +1,7 @@
+What does the term JSX refer to?
+creo que puede haber dos respuestas validas 
+    - Similar in appearance to XML and HTML, JSX is used to create elements
+using a familiar syntax
+    -It is the mix between pure HTML and javascript , for this reason JSX is
+used to identify React syntax
+    

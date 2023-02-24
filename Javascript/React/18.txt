@@ -1,0 +1,3 @@
+How would you make a Rest API call from JavaScript?
+podemos usar la funcion fetch pasandole la url del endpoind que nos va a dar la infomacion, junto a todo lo necearion en el headers y en los parametros que necesite el endpoint,
+este valor va a ser una promesa, la cual podemos resolver con el then() o usando el asyn/await 

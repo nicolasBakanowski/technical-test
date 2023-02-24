@@ -1,0 +1,4 @@
+What is the difference between class components and functional
+components?
+-con los componentes funcionales podemos usar los hooks
+-con los componentes de clases tenemos que ver los ciclos de vida del componente, que con los funcionales tenemos el useEffect

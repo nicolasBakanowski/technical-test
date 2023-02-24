@@ -1,0 +1,2 @@
+How many and which arguments does useEffect Hook receive?
+-Two arguments, which are the effect and the dependencies.
