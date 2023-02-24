@@ -1,0 +1,5 @@
+How do I pass a value from a parent component to a child component?
+Select all the options that apply.
+ -Using props  
+ seria lo ideal para hacer el componente reutilizable, pero tambien podemos tomar como valida la opcion 
+ -Through the use of states.
