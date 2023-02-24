@@ -1,0 +1,2 @@
+What happens when we change the state of a component?
+ se vuelve a renderizar el componente de manera reactiva 
