@@ -1,18 +1,15 @@
 package documents;
 
 public class UrgentOrder extends Order {
-    private boolean isUrgent;
+   private boolean isUrgent;
 
-    public UrgentOrder(int id, String productName, int quantity, double price, boolean isUrgent) {
-        super(id, productName, quantity, price);
-        this.isUrgent = isUrgent;
-    }
+   public UrgentOrder(int orderNumber, String customerName, String productName, int quantity, boolean isUrgent) {
+       super(orderNumber, customerName, productName, quantity);
+       this.isUrgent = isUrgent;
+   }
 
-    public boolean getIsUrgent() {
-        return isUrgent;
-    }
-
-    public void setIsUrgent(boolean isUrgent) {
-        this.isUrgent = isUrgent;
-    }
+   public void display() {
+       super.display();
+       System.out.println("Is Urgent: " + isUrgent);
+   }
 }
