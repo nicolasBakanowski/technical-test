@@ -1,0 +1,4 @@
+Which of these component types are valid? Select all the options that apply.
+ - Class Component
+ - Component Function
+ 
