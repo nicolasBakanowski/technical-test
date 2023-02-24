@@ -1,0 +1,3 @@
+How would you set the state of a component?
+en los componentes de clases, debemos usar definir el estado en el constructor de la clase, y para modificarlo necesitamos el metodo set.state,
+en los componentes funcionales necesitamos usar el useState()
