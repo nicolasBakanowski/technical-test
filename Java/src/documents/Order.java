@@ -1,17 +1,22 @@
 package documents;
 
-public class Order {
-    private int id;
-    private String productName;
-    private int quantity;
-    private double price;
+public class Order extends Document {
+   private int orderNumber;
+   private String customerName;
+   private String productName;
+   private int quantity;
 
-    public Order(int id, String productName, int quantity, double price) {
-        this.id = id;
-        this.productName = productName;
-        this.quantity = quantity;
-        this.price = price;
-    }
+   public Order(int orderNumber, String customerName, String productName, int quantity) {
+       this.orderNumber = orderNumber;
+       this.customerName = customerName;
+       this.productName = productName;
+       this.quantity = quantity;
+   }
 
-    // Getters and setters for the private fields
+   public void display() {
+       System.out.println("Order Number: " + orderNumber);
+       System.out.println("Customer Name: " + customerName);
+       System.out.println("Product Name: " + productName);
+       System.out.println("Quantity: " + quantity);
+   }
 }
