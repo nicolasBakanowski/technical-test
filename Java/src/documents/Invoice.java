@@ -1,13 +1,19 @@
 package documents;
 
-public class Invoice {
-    private int id;
-    private String customerName;
-    private double totalAmount;
+public class Invoice extends Document {
+   private int invoiceNumber;
+   private String customerName;
+   private double amount;
 
-    public Invoice(int id, String customerName, double totalAmount) {
-        this.id = id;
-        this.customerName = customerName;
-        this.totalAmount = totalAmount;
-    }
+   public Invoice(int invoiceNumber, String customerName, double amount) {
+       this.invoiceNumber = invoiceNumber;
+       this.customerName = customerName;
+       this.amount = amount;
+   }
+
+   public void display() {
+       System.out.println("Invoice Number: " + invoiceNumber);
+       System.out.println("Customer Name: " + customerName);
+       System.out.println("Amount: " + amount);
+   }
 }
