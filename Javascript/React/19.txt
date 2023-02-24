@@ -1,0 +1,2 @@
+What is the use of the useEffect hook?
+el useEffect nos  permite que se ejecute cierto bloques de codigo dependiendo de lo que necesitemos cuando se renderiza el componente o cuande este es actualizado 
